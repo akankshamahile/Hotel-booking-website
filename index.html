@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hotel Booking</title>
+
+    <!--styling-->
+    <style>
+      body{
+
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+
+      .card{
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: 1 fr 6fr 1fr;
+        height: 500px;
+        top: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        
+      }
+
+      .card div{
+        grid-row: 2/3;
+      }
+
+    </style>
+
+  </head>
+  <body background="C:\Users\Akanksha\Downloads\revato-275450-12292942-924181.jpg">
+
+<div class="card text-left", style="width: 50rem; overflow-y: auto">
+  <!-- Content here -->
+    <div class="container">
+
+<div class="title py-5">
+  <center> <h3 style="color: burlywood;" >Hotel Booking</h3> </center>
+  <center> <h6 style="color: burlywood;">Experience something new every moment</h6> </center>
+</div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+  <form class="row g-3">
+  <div class="col-md-6">
+    <label style= "color: burlywood;" for="validationCustom01" class="form-label">First Name</label>
+    <input type="text" name="fname" class="form-control" id="validationCustom01" required />
+  </div>
+  <div class="col-md-6">
+    <label style= "color: burlywood;" for="validationCustom02" class="form-label">Last Name </label>
+    <input type="text" name="lname" class="form-control" id="validationCustom02" required />
+  </div>
+  <div class="mb-3">
+  <label style= "color: burlywood;" for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required />
+</div>
+
+    <div class="col-md-4">
+     <label style= "color: burlywood;" for="inputNumber" class="form-label">Phone Number </label>
+    <input type="tel" maxlength="10" class="form-control"  required />
+  </div>
+
+    <div class="col-md-4">
+    <label style= "color: burlywood;" for="inputRoom" class="form-label">Room Type</label>
+    <select id="inputState" class="form-select">
+      <option selected>Please Select </option>
+      <option>Standard Room (1 to 2 people)</option>
+      <option>Family Room (1 to 4 people)</option>
+      <option>Private Room (1 to 3 people)</option>
+      <option>Mix Dorm Room (6 People)</option>
+      <option>Female Dorm Room (6 People)</option>
+      <option>Male Dorm Room (6 People)</option>
+    </select>
+  </div>
+
+  <div class="col-md-4">
+        <label style= "color: burlywood;" for="inputGuests" class="form-label">Number of Guests </label>
+    <input type="Number" class="form-control"  placeholder="0-100" required />
+  </div>
+
+  <div class="col-12">
+  <label style="color: burlywood;" for="inputArrival" class="form-label"> Arrival Date </label>
+    <input type="date" class="form-control" name="arrival" value="Today" required />
+  </div>
+
+  <div class="col-12">
+  <label style="color: burlywood;" for="inputDeparture" class="form-label"> Departure Date</label>
+    <input type="date" class="form-control" name="departure" data-value="7" value="After one week" required/>
+  </div>
+
+  <div class="col-12">
+    <label style="color: burlywood;" for="inputDeparture" class="form-label"> Free Pickup? </label>
+  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label style="color: burlywood;" class="form-check-label" for="flexCheckDefault">
+    Yes, Please!
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+  <label style="color: burlywood;" class="form-check-label" for="flexCheckDefault">
+    No, Thanks
+  </label>
+</div>
+  
+    <div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label style="color: burlywood;" for="floatingTextarea2">Special Requests</label>
+</div>
+
+  <div class="col-12">
+    <center> <button  type="submit" class="btn btn-primary">Submit</button> </center>
+  </div>
+</form>
+  </div>
+</div>
+<div>
+    <footer align="center">
+      <h5 style="color: white;"> &copy; Akanksha Mahile | Department of Electronic & Telecommunication Engineering | USN : ET20050 | S.B. Jain, Nagpur</h5>
+    </footer>
+  </div>
+
+  </body>
+</html>
